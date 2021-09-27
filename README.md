@@ -1,16 +1,15 @@
 ## Automação da API ServeRest
-Projeto tem como objetivo demonstrar a automação dos serviços de Cadastro de Usuário e Consulta de Usuário por ID.
+O Projeto tem como objetivo demonstrar a automação dos serviços de Cadastro de Usuário e Consulta de Usuário por ID.
 
 
 **🚀 Começando**
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de teste.
+Estas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de teste.
 
-Consulte Implantação para saber como implantar o projeto.
 
 **📋 Pré-requisitos**
 
-Possuir Robot Framework
+Possuir a útilma versão do Robot Framework
 Possuir Python e Gerenciador de Pacotes do Python (pip)
 Possuir Libs Request Library
 
@@ -19,14 +18,16 @@ Possuir Libs Request Library
 
 Método de Instalação de todos os pré-requisitos citados acima:
   
-  Caso não tenha o Python instalado, realizar o donwload da última versão : https://www.python.org › downloads
+  Caso não tenha o Python instalado, realizar o donwload da última versão : https://www.python.org › downloads e escolha a versão a ser utilizada na plataforma do sistema operacional do computador.
+  
+  Observação: Verifique a versão do python instalado no seu computador digitando:  pip--version
   
   ### Instalação do Robot Framework
-        Abrir prompt de comando e digitar:
+        Abra o prompt de comando e digite:
           -Robot Framework : pip install robotframework
           -Para validar a instalação : robot --version 
   
-  Criar uma pasta em qualquer diretório da máquina e salvar o script de teste;
+  Crie uma pasta em qualquer diretório da máquina e salve o script de teste;
   Ex: C:\robot\testcases.robot  
   
   **Importante:** a extensão do script deve ser **.robot**
@@ -51,7 +52,7 @@ Na tela do CMD, ele irá gerar o resultado dos testes, conforme exemplo abaixo:
     
 **🔩 Analise os resultados dos testes**
 
-A execução irá gerar 3 OUT´s, onde será possivel analisar os resultados e os logs gerados.
+A execução irá gerar 3 arquivos com extensão em html, onde será possivel analisar os resultados e os logs gerados.
     
     log.html
     output.html
